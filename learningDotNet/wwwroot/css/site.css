@@ -1,0 +1,483 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Slideshow
+----------------------------------------------------- */
+
+/**
+
+            default hp slider styles
+
+            **/
+
+.hp-slider {
+    margin: 15px auto;
+    width: 100vw;
+    max-width: auto;
+    position: relative;
+    overflow: hidden;
+    margin-right: -7.5px;
+}
+
+    .hp-slider .slider-title {
+        text-align: center;
+        font-family: 'geomanist-bold';
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        font-size: 15px;
+    }
+
+@media(min-width:768px) {
+    .hp-slider .slider-title {
+        font-size: 19px;
+    }
+}
+
+.hp-slider a {
+    display: block;
+    overflow: hidden;
+}
+
+    .hp-slider a img {
+        width: 100%;
+        display: block;
+        padding: 2.5px;
+    }
+
+
+/* arrows */
+
+.hp-slider .slick-arrow {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 2.5em;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 5%;
+    color: #000;
+    transition: color ease-out 0.33s;
+    overflow: hidden;
+    background: rgba(255,255,255,.8);
+    z-index: 5;
+}
+
+
+    .hp-slider .slick-arrow i {
+        display: block;
+        margin: 0 auto;
+    }
+
+.hp-slider .slick-prev {
+    left: -5%;
+}
+
+.hp-slider .slick-next {
+    right: -5%;
+}
+
+@media(min-width:768px) {
+    .hp-slider .slick-arrow {
+        font-size: 3em;
+        background: transparent;
+    }
+
+    .hp-slider .slick-prev {
+        left: 0%;
+    }
+
+    .hp-slider .slick-next {
+        right: 0%;
+    }
+
+    .hp-slider a img {
+        padding: 7.5px;
+    }
+}
+
+
+
+/**
+
+slider top test
+
+**/
+
+.national-parks-top {
+}
+
+    .national-parks-top a {
+        display: block;
+    }
+
+.extra-copy-fluff {
+    font-family: rockwell, georgia,'Josefin Slab', serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 10% 15px;
+    background: #603a17;
+    background: #111;
+    font-size: 12px;
+    color: #fff;
+    display: none;
+}
+
+@media(min-width:768px) {
+    .extra-copy-fluff {
+        padding: 20px 20% 20px;
+        font-size: 21px;
+        text-transform: uppercase;
+    }
+
+        .extra-copy-fluff p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+}
+
+.cb-slideshow,
+.cb-slideshow:after {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+@media(min-width:992px) {
+    .cb-slideshow:after {
+        content: '';
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+40,0.66+100 */
+        background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.66) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.66) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.66) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a8000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        width: 100%;
+        display: block;
+        position: absolute;
+        z-index: 33;
+        left: 0;
+        top: 0;
+        height: 768px;
+    }
+}
+
+.cb-slideshow .nat-park-badge {
+    position: relative;
+    z-index: 50;
+    width: 50%;
+    margin: 5% auto;
+    max-width: 450px;
+    display: block;
+}
+
+.cb-slideshow .button {
+    position: relative;
+    z-index: 10;
+    display: block;
+    text-align: center;
+    padding: 12.5px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    max-width: 200px;
+    margin: 0px auto 30px;
+    font-family: 'geomanist-bold';
+    color: #fff;
+    font-size: 15px;
+    background: rgba(0,0,0,.15);
+    transition: all ease-out 0.33s;
+}
+
+@media(min-width:992px) {
+    .cb-slideshow .button {
+        margin-bottom: 80px;
+    }
+
+    .cb-slideshow:hover .button {
+        background: #00a1df;
+        border-color: #00a1df;
+        box-shadow: 2px 2px 10px -1px rgba(0,0,0,.66);
+    }
+}
+
+.cb-slideshow li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 25%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 50s linear infinite 0s;
+    -moz-animation: imageAnimation 50s linear infinite 0s;
+    -o-animation: imageAnimation 50s linear infinite 0s;
+    -ms-animation: imageAnimation 50s linear infinite 0s;
+    animation: imageAnimation 50s linear infinite 0s;
+}
+
+
+.cb-slideshow li:nth-child(1) span {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.classic-collection.co.uk%2Fblog%2Fwp-content%2Fuploads%2F2017%2F04%2F57947750_ml-medium.jpg&f=1&nofb=1);
+}
+
+.cb-slideshow li:nth-child(2) span {
+    background-image: url(https://i5.govx.io/images/cdn/national-parks-top-section-bg-081716-2.jpg?t=1600);
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    -o-animation-delay: 10s;
+    -ms-animation-delay: 10s;
+    animation-delay: 10s;
+}
+
+.cb-slideshow li:nth-child(3) span {
+    background-image: url(https://i4.govx.io/images/cdn/national-parks-top-section-bg-081716-3.jpg?t=1600);
+    -webkit-animation-delay: 20s;
+    -moz-animation-delay: 20s;
+    -o-animation-delay: 20s;
+    -ms-animation-delay: 20s;
+    animation-delay: 20s;
+}
+
+.cb-slideshow li:nth-child(4) span {
+    background-image: url(https://i3.govx.io/images/cdn/national-parks-top-section-bg-081716-4.jpg?t=1600);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+
+.cb-slideshow li:nth-child(5) span {
+    background-image: url(https://i2.govx.io/images/cdn/national-parks-top-section-bg-081716-6.jpg?t=1600);
+    -webkit-animation-delay: 40s;
+    -moz-animation-delay: 40s;
+    -o-animation-delay: 40s;
+    -ms-animation-delay: 40s;
+    animation-delay: 40s;
+}
+
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+
+    10% {
+        opacity: 1;
+        -ms-animation-timing-function: ease-out;
+        -webkit-transform: scale(1.05) translate(1.5%, 1);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: scale(1.15) translate(3%, 2%);
+    }
+
+    30% {
+        opacity: 0;
+        -webkit-transform: scale(1.2) translate(4%, 2.5%)
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-moz-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+
+    10% {
+        opacity: 1;
+        -ms-animation-timing-function: ease-out;
+        -webkit-transform: scale(1.05) translate(1.5%, 1);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: scale(1.15) translate(3%, 2%);
+    }
+
+    30% {
+        opacity: 0;
+        -webkit-transform: scale(1.2) translate(4%, 2.5%)
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-o-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+
+    10% {
+        opacity: 1;
+        -ms-animation-timing-function: ease-out;
+        -webkit-transform: scale(1.05) translate(1.5%, 1);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: scale(1.15) translate(3%, 2%);
+    }
+
+    30% {
+        opacity: 0;
+        -webkit-transform: scale(1.2) translate(4%, 2.5%)
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-ms-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+
+    10% {
+        opacity: 1;
+        -ms-animation-timing-function: ease-out;
+        -webkit-transform: scale(1.05) translate(1.5%, 1);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: scale(1.15) translate(3%, 2%);
+    }
+
+    30% {
+        opacity: 0;
+        -webkit-transform: scale(1.2) translate(4%, 2.5%)
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+
+    10% {
+        opacity: 1;
+        -ms-animation-timing-function: ease-out;
+        -webkit-transform: scale(1.05) translate(1.5%, 1);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: scale(1.15) translate(3%, 2%);
+    }
+
+    30% {
+        opacity: 0;
+        -webkit-transform: scale(1.2) translate(4%, 2.5%)
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+}
+
+/* Show at least something when animations not supported */
+.no-cssanimations .cb-slideshow li span {
+    opacity: 1;
+}
+
+
+
